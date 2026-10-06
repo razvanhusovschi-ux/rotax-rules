@@ -1,0 +1,2197 @@
+{
+  "schema_version": 1,
+  "fiscal_year": 2026,
+  "rules_version": "2026.0.2-draft",
+  "status": "DRAFT_LEGAL_CONFLICTS_RESOLVED_PENDING_ACCOUNTANT",
+  "last_verified": "2026-09-25",
+  "applies_to": "Venituri realizate în 2026; declarate și plătite până la 25 mai 2027 (Declarația unică, formular 212)",
+  "confidence_levels": {
+    "primary_anaf": "Confirmat pe un text oficial (ANAF / Monitorul Oficial / BNR), arhivat cu amprentă digitală. Textul consolidat de pe ANAF e informativ, nu o republicare.",
+    "official_portal_consolidated_2026": "Confirmat pe textul de pe legislatie.just.ro (Portal Legislativ) — consolidat sau act publicat în Monitorul Oficial — arhivat integral cu amprentă digitală; textul consolidat e informativ, nu o republicare.",
+    "secondary_multiple": "Confirmat de mai multe surse secundare independente, neverificat încă pe textul legii",
+    "official_portal_2022_text": "Confirmat pe textul oficial de pe legislatie.just.ro (act din 2022); neconfirmat încă pe versiunea consolidată 2026",
+    "product_decision": "Alegere de produs (nu regula fiscala), documentata ca atare",
+    "to_verify": "Surse contradictorii sau o singură sursă secundară; NU se folosește în calcule până la verificare"
+  },
+  "sources": {
+    "ordin_mti_888_2026_portal": {
+      "title": "Ordinul MTI nr. 888/2026 pentru aprobarea categoriilor de vehicule și a nivelului rovinietei, MO 818/25.09.2026 (Portal Legislativ, arhivat integral)",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocument/314861",
+      "archived": "docs/sources/pdfs/ordin_mti_888_2026_legislatie_just_ro_arhivat_2026-10-06.html",
+      "sha256": "6fbb868445ce4668adbda7c7c444ea660e53042568dddc7b492b57f1748006ed",
+      "retrieved": "2026-10-06",
+      "opened_in_full": true
+    },
+    "legea_226_2023_portal": {
+      "title": "Legea nr. 226/2023 privind aplicarea unor tarife rutiere pe rețeaua de drumuri naționale (rovinieta și TollRo), cu modificările la zi (Portal Legislativ, arhivat integral)",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocument/272230",
+      "archived": "docs/sources/pdfs/legea_226_2023_legislatie_just_ro_arhivat_2026-10-06.html",
+      "sha256": "d95f624523d971c464fc9fb3baf6d37cb3746b5685508c654b1b2bedb8f693c9",
+      "retrieved": "2026-10-06",
+      "opened_in_full": true
+    },
+    "cod_fiscal_consolidat_just_2026_08_08": {
+      "title": "Legea 227/2015 — Codul fiscal, Titlul IX (art. 453-493), text consolidat la 08.08.2026 (Portal Legislativ, arhivat integral)",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocument/312601",
+      "archived": "docs/sources/pdfs/cod_fiscal_legislatie_just_ro_consolidat_2026-08-08_arhivat_2026-10-06.html",
+      "sha256": "44fea882c55ba132dda46c7b8674bc72361c3dc3f8846446ae00351721c7887c",
+      "retrieved": "2026-10-06",
+      "opened_in_full": true
+    },
+    "anaf_cluj_2026": {
+      "title": "ANAF DGRFP Cluj — Completarea și depunerea Declarației Unice, venituri din activități independente (22 aprilie 2026)",
+      "url": "https://static.anaf.ro/static/10/Cluj/cj_DU_activ_indep_22apr2026.pdf",
+      "opened_in_full": true
+    },
+    "anaf_norme_2026_page": {
+      "title": "ANAF — Normele anuale de venit pe anul 2026",
+      "url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Normevenit2026/Norme_venit_2026.html",
+      "opened_in_full": false
+    },
+    "anaf_norme_2026_salaj": {
+      "title": "ANAF AJFP Sălaj — Norme anuale de venit 2026 (reduceri, minim 12 x salariul minim)",
+      "url": "https://static.anaf.ro/static/10/Cluj/AJFPSJ_norme_venit_2026.pdf",
+      "opened_in_full": false
+    },
+    "anaf_tva_modificari": {
+      "title": "ANAF DGRFP Ploiești — Modificări TVA (cote 21%/11%, plafon 395.000 lei)",
+      "url": "https://static.anaf.ro/static/10/Ploiesti/modificari_tva.pdf",
+      "opened_in_full": false
+    },
+    "contapp_plafoane_2026": {
+      "title": "ContApp — Plafoane fiscale 2026 (secundar)",
+      "url": "https://contapp.ro/blog/plafoane-fiscale-2026-pentru-pfa-ii-si-microintreprinderi/",
+      "opened_in_full": false
+    },
+    "bono_tva": {
+      "title": "Bono.ro — Plătitor de TVA (secundar; autor expert contabil CECCAR)",
+      "url": "https://bono.ro/blog/platitor-de-tva-sau-neplatitor-tva-conditii-diferente-si-obligatii",
+      "opened_in_full": false
+    },
+    "art148_minim_wage_rule_gate0": {
+      "title": "Art. 135^1 Cod fiscal (mod. OUG 128/2024) — salariul minim de la 1 ianuarie folosit pentru tot anul, indiferent de majorări ulterioare",
+      "url": "https://startupcafe.ro/ce-salariu-minim-se-va-lua-in-calcul-la-stabilirea-plafoanelor-pentru-contributiile-din-2026-explicatiile-unui-expert-contabil-101726",
+      "archived": "docs/sources/legea_227_2015_art148_salariul_minim.md",
+      "opened_in_full": false
+    },
+    "art174_cass_gate0": {
+      "title": "Art. 174 alin. (2)/(6)/(7) Cod fiscal — CASS sub pragul minim și excepțiile de la diferență",
+      "url": "https://www.noulcodfiscal.ro/titlu-5/capitol-3/sectiune-6/articol-174.html",
+      "archived": "docs/sources/legea_227_2015_art174_cass.md",
+      "opened_in_full": false
+    },
+    "hg_146_2026_gate0": {
+      "title": "HG 146/2026 — salariul minim 4.325 lei din 1 iulie 2026",
+      "url": "https://static.anaf.ro/static/10/Anaf/legislatie/HG_146_2026.pdf",
+      "archived": "docs/sources/pdfs/hg_146_2026.pdf",
+      "opened_in_full": true,
+      "sha256": "3dce4be85c2330ff6c79049014c538081c2e55de647125072e8b6937cc8f2488",
+      "retrieved": "2026-09-25"
+    },
+    "legea_239_2025_gate0": {
+      "title": "Legea 239/2025 — plafon CASS 72 salarii minime pentru veniturile 2026",
+      "url": "https://www.pwc.ro/ro/tax-legal/alerts/Pachet-fiscal-2-Legea-nr-239-2025.html",
+      "archived": "docs/sources/legea_239_2025_plafon_cass.md",
+      "opened_in_full": false
+    },
+    "salarii_og16_2022_tabel_deducere": {
+      "title": "Ordonanța 16/2022 (legislatie.just.ro) — tabelul deducerii personale de bază (art. 77 Cod fiscal)",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocument/257589",
+      "archived": "docs/sources/salarii_2026.md",
+      "opened_in_full": false
+    },
+    "salarii_oug_89_2025_suma_neimpozabila": {
+      "title": "OUG 89/2025 (M.Of. 1203/24.12.2025), art. III alin. (1): 300 lei/lună ian-iun, 200 lei/lună iul-dec 2026; plafoane 4.300 / 4.600 lei inclusiv; salariul de bază = salariul minim",
+      "url": "https://static.anaf.ro/static/10/Anaf/legislatie/OUG_89_2025.pdf",
+      "archived": "docs/sources/pdfs/oug_89_2025.pdf",
+      "opened_in_full": true
+    },
+    "salarii_art77_consolidat_2026": {
+      "title": "Art. 77 Cod fiscal, versiune actualizată 2026 (oglindă noulcodfiscal.ro): tabel deducere personală de bază, 51 de rânduri, 20%..0% / 45%..25%, limita salariul minim + 2.000 lei",
+      "url": "https://www.noulcodfiscal.ro/titlu-4/capitol-3/sectiune-3/articol-77.html",
+      "archived": "docs/sources/salarii_2026.md",
+      "opened_in_full": false
+    },
+    "salarii_metodologie_salariile_ro": {
+      "title": "Salariile.ro — metodologie calcul salariu net 2026 (secundar; ordine calcul, rotunjire, CAM)",
+      "url": "https://salariile.ro/metodologie",
+      "archived": "docs/sources/salarii_2026.md",
+      "opened_in_full": false
+    },
+    "dividende_ghid_anaf_startupcafe": {
+      "title": "StartupCafe — Impozitarea dividendelor: ghid ANAF 2026 (cota 16% din 1 ian 2026, regula tranzitorie 10%, CASS pe dividende încasate nete)",
+      "url": "https://startupcafe.ro/impozitarea-dividendelor-ghid-anaf-2026-cu-informatii-pentru-firme-si-persoane-fizice-94043",
+      "archived": "docs/sources/dividende_2026.md",
+      "opened_in_full": false
+    },
+    "dividende_art170_cass": {
+      "title": "Art. 170 Cod fiscal (oglindă noulcodfiscal.ro) — CASS pe venituri extrasalariale: praguri 6/12/24 salarii minime; dividende plătite diminuate cu impozitul reținut",
+      "url": "https://www.noulcodfiscal.ro/titlu-5/capitol-3/sectiune-5/articol-170.html",
+      "archived": "docs/sources/dividende_2026.md",
+      "opened_in_full": false
+    },
+    "dividende_firmaromania_cass": {
+      "title": "FirmaRomania — CASS la dividende în 2026 (tabel praguri, exemplu 70.000 lei)",
+      "url": "https://firmaromania.com/ro/blog/cass-dividende/",
+      "archived": "docs/sources/dividende_2026.md",
+      "opened_in_full": false
+    },
+    "srl_oug_89_2025_micro": {
+      "title": "OUG 89/2025 (M.Of. 1203/24.12.2025): art. 51 alin. (1) cota micro 1%, alin. (11) și (41)-(43) abrogate; art. 52 alin. (5) verificare cumulată, curs la închiderea exercițiului precedent",
+      "url": "https://static.anaf.ro/static/10/Anaf/legislatie/OUG_89_2025.pdf",
+      "archived": "docs/sources/pdfs/oug_89_2025.pdf",
+      "opened_in_full": true
+    },
+    "srl_anaf_cluj_micro_conditii": {
+      "title": "ANAF DGRFP Cluj, CJR_DEC_6319/23.03.2026 — condițiile pentru aplicarea impozitului micro în 2026 (plafon 100.000 euro, salariat, situații financiare, formular 700)",
+      "url": "https://static.anaf.ro/static/3/Cluj/20260402144800_cj_micro_02apr2026.pdf",
+      "archived": "docs/sources/pdfs/anaf_cluj_micro_conditii_2026_CJR_DEC_6319.pdf",
+      "opened_in_full": true
+    },
+    "srl_art17_profit_2026": {
+      "title": "Art. 17 Cod fiscal (oglindă noulcodfiscal.ro, actualizat 2026): cota impozitului pe profit 16%",
+      "url": "https://www.noulcodfiscal.ro/titlu-2/articol-17.html",
+      "archived": "docs/sources/srl_micro_2026.md",
+      "opened_in_full": false
+    },
+    "srl_curs_bnr_31_12_2025": {
+      "title": "Curs BNR EUR la 31.12.2025 = 5,0985 lei (cursbnr.ro citează BNR; confirmat și de valutare.ro, presă, keez.ro: 100.000 euro = 509.850 lei)",
+      "url": "https://www.cursbnr.ro/arhiva-curs-bnr-2025-12-31",
+      "archived": "docs/sources/srl_micro_2026.md",
+      "opened_in_full": false
+    },
+    "calendar_cod_fiscal_art41_42": {
+      "title": "Art. 41 alin. (1) și art. 42 alin. (1) Cod fiscal (oglindă noulcodfiscal.ro, 2026): impozit pe profit trimestrial până la 25 a lunii următoare trimestrelor I-III; declarația anuală până la 25 iunie a anului următor",
+      "url": "https://www.noulcodfiscal.ro/titlu-2/capitol-4/articol-41.html",
+      "archived": "docs/sources/calendar_2026.md",
+      "opened_in_full": false
+    },
+    "calendar_cod_fiscal_art56": {
+      "title": "Art. 56 alin. (1) Cod fiscal (oglindă noulcodfiscal.ro, 2026): impozitul micro se calculează și se plătește trimestrial, până la 25 inclusiv a lunii următoare trimestrului",
+      "url": "https://www.noulcodfiscal.ro/titlu-3/articol-56.html",
+      "archived": "docs/sources/calendar_2026.md",
+      "opened_in_full": false
+    },
+    "calendar_cpf_art75": {
+      "title": "Art. 75 Codul de procedură fiscală (static.anaf.ro): termenele se calculează potrivit Codului de procedură civilă (termen care cade într-o zi nelucrătoare -> prima zi lucrătoare)",
+      "url": "https://static.anaf.ro/static/10/Anaf/cod_procedura/Cod_Procedura_Fiscala_2023.htm",
+      "archived": "docs/sources/pdfs/cpf_anaf_2026-09-25.htm",
+      "opened_in_full": true,
+      "sha256": "504b8fd78c2e4430dbb14095095c8a107ee7c7adc00c4a0f4b71715dade39e76",
+      "retrieved": "2026-09-25"
+    },
+    "oug_8_2026_gate0": {
+      "title": "OUG 8/2026 — bonificația de 3% vizează veniturile 2025, nu 2026",
+      "url": "https://startupcafe.ro/bonificatia-de-3-pentru-pfa-chirii-crypto-si-alte-venituri-pe-cont-propriu-cum-se-procedeaza-cu-declaratia-unica-2026-si-plata-impozitului-97745",
+      "archived": "docs/sources/oug_8_2026_bonificatie.md",
+      "opened_in_full": false
+    },
+    "anaf_cod_fiscal_consolidat_2026_09_25": {
+      "title": "ANAF — Codul fiscal cu norme, text actualizat prin OUG 38/2026",
+      "url": "https://static.anaf.ro/static/10/Anaf/legislatie/Cod_fiscal_norme_2023.htm",
+      "archived": "docs/sources/pdfs/cod_fiscal_cu_norme_anaf_2026-09-25.htm",
+      "sha256": "4126f22e94b337fdb2b01a3b55d4c712875bd585653a52644c5eeb689660c290",
+      "retrieved": "2026-09-25",
+      "opened_in_full": true
+    },
+    "legea_141_2025_anaf": {
+      "title": "Legea 141/2025 (M.Of. 699/2025) — dividende 16%, regula tranzitorie 10%",
+      "url": "https://static.anaf.ro/static/10/Anaf/legislatie/L_141_2025.pdf",
+      "archived": "docs/sources/pdfs/legea_141_2025.pdf",
+      "sha256": "ee46f1e5164bdd0262de8707269cb83d263dadf40366f5b273e79699bbc434ef",
+      "retrieved": "2026-09-25",
+      "opened_in_full": true
+    },
+    "hg_1506_2024_anaf": {
+      "title": "HG 1506/2024 — salariul minim 4.050 lei din 1 ianuarie 2025",
+      "url": "https://static.anaf.ro/static/10/Anaf/legislatie/HG_1506_2024.pdf",
+      "archived": "docs/sources/pdfs/hg_1506_2024.pdf",
+      "sha256": "c829e477306d69e8f1e1d523baf2b6375cda7961dd34219bc36a9d6ae4d5e4f5",
+      "retrieved": "2026-09-25",
+      "opened_in_full": true
+    },
+    "bnr_curs_2025_xml": {
+      "title": "BNR — cursuri de referință 2025 (EUR la 31.12.2025 = 5,0985 lei)",
+      "url": "https://www.bnr.ro/files/xml/years/nbrfxrates2025.xml",
+      "archived": "docs/sources/pdfs/bnr_curs_2025.xml",
+      "sha256": "afbdbadbc54a0d99ee8867d0ca9afd4d3dfd1e8a626b083a1b7d483becb26c23",
+      "retrieved": "2026-09-25",
+      "opened_in_full": true
+    },
+    "anaf_cod_procedura_fiscala_2026_09_25": {
+      "title": "ANAF — Codul de procedură fiscală, art. 75 (calculul termenelor)",
+      "url": "https://static.anaf.ro/static/10/Anaf/cod_procedura/Cod_Procedura_Fiscala_2023.htm",
+      "archived": "docs/sources/pdfs/cpf_anaf_2026-09-25.htm",
+      "sha256": "504b8fd78c2e4430dbb14095095c8a107ee7c7adc00c4a0f4b71715dade39e76",
+      "retrieved": "2026-09-25",
+      "opened_in_full": true
+    },
+    "codul_muncii_art139": {
+      "title": "Codul muncii (Legea 53/2003 r.), art. 139 alin. (1) — zilele de sărbătoare legală în care nu se lucrează (Portal Legislativ, arhivat integral)",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocument/128647",
+      "archived": "docs/sources/pdfs/codul_muncii_legislatie_just_ro_2026-09-25.html",
+      "sha256": "f7130da9917df2f219b288ec89baa7803e05c685a87589f6644f898e97b9b550",
+      "retrieved": "2026-09-25",
+      "opened_in_full": true
+    },
+    "cpc_art181": {
+      "title": "Codul de procedură civilă (Legea 134/2010 r.), art. 181 alin. (2) — termenul care cade într-o zi nelucrătoare se prelungește până în prima zi lucrătoare (Portal Legislativ, arhivat integral)",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocument/140271",
+      "archived": "docs/sources/pdfs/cpc_legea_134_2010_legislatie_just_ro_2026-09-25.html",
+      "sha256": "4cc28897968f958ed60573ea4c674e4f46f9fe32fec48660315a858bdef59b0d",
+      "retrieved": "2026-09-25",
+      "opened_in_full": true
+    },
+    "paste_ortodox_2026_digi24": {
+      "title": "Digi24 — Paștele ortodox 2026: Vinerea Mare 10 aprilie, Paște 12 aprilie, a doua zi 13 aprilie (secundar; data Paștelui se calculează prin computul pascal iulian, verificat pe 2020–2030)",
+      "url": "https://www.digi24.ro/stiri/actualitate/social/zile-libere-de-paste-2026-cat-dureaza-minivacanta-angajatilor-din-romania-de-cand-se-intorc-elevii-la-scoala-3626225",
+      "opened_in_full": true
+    }
+  },
+  "parameters": {
+    "smbt_reference": {
+      "value": 4050,
+      "unit": "lei/lună",
+      "note": "Salariul minim brut în vigoare la 1 ianuarie 2026. Creșterea la 4.325 lei din 1 iulie 2026 NU se folosește la plafoanele anului 2026 (se va folosi, probabil, pentru veniturile din 2027 — vezi rules_2027 provizoriu). GATE 0 (C2, rezolvat): confirmat prin art. 135^1 Cod fiscal (modificat prin OUG 128/2024) — se folosește valoarea salariului minim de la 1 ianuarie a anului de realizare a venitului, indiferent de câte valori diferite există în cursul anului. Vezi docs/sources/legea_227_2015_art148_salariul_minim.md.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_norme_2026_salaj",
+        "anaf_cluj_2026",
+        "art148_minim_wage_rule_gate0",
+        "hg_146_2026_gate0",
+        "anaf_cod_fiscal_consolidat_2026_09_25",
+        "hg_1506_2024_anaf"
+      ]
+    },
+    "income_tax_rate": {
+      "value": 0.10,
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cluj_2026",
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "cas_rate": {
+      "value": 0.25,
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cluj_2026",
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "cass_rate": {
+      "value": 0.10,
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cluj_2026",
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "cass_min_base_multiple": {
+      "value": 6,
+      "note": "Bază minimă CASS = 6 x salariul minim (=24.300 lei). Diferența până la acest minim se datorează, cu excepțiile de la art. 174 alin. (7). GATE 0 (C1, rezolvat): confirmat textul exact al art. 174 alin. (2)/(6)/(7) — excepțiile sunt: (a) venituri salariale >= 6 salarii minime, (b) alte venituri (art. 155 alin. 1 lit. c-h) la nivel minim, (c) venituri din pensii (art. 99). Afirmațiile 'sub 24.300 lei nu se datorează CASS' de pe unele site-uri secundare sunt simplificări incorecte. Vezi docs/sources/legea_227_2015_art174_cass.md.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cluj_2026",
+        "art174_cass_gate0",
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "cas_low_base_multiple": {
+      "value": 12,
+      "note": "CAS obligatoriu de la venit net >= 12 x salariul minim (=48.600 lei); bază 12 x salariul minim pentru venituri în [12, 24).",
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cluj_2026",
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "cas_high_base_multiple": {
+      "value": 24,
+      "note": "Bază CAS 24 x salariul minim (=97.200 lei) pentru venituri >= 24 x salariul minim.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cluj_2026",
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "cass_max_base_multiple": {
+      "value": 72,
+      "note": "Plafon maxim bază CASS pentru veniturile realizate în 2026 (=291.600 lei; CASS maxim 29.160 lei). Pentru veniturile din 2025 plafonul era 60. Corroborat independent prin Legea 239/2025 — vezi docs/sources/legea_239_2025_plafon_cass.md.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cluj_2026",
+        "legea_239_2025_gate0",
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "norma_min_multiple": {
+      "value": 12,
+      "note": "Norma de venit pentru o activitate nu poate fi mai mică decât 12 x salariul minim (=48.600 lei în 2026).",
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_norme_2026_salaj",
+        "anaf_cluj_2026"
+      ]
+    },
+    "norma_switch_to_real_eur": {
+      "value": 25000,
+      "note": "Dacă venitul brut anual depășește echivalentul în lei al 25.000 EUR (curs mediu anual BNR), se trece obligatoriu la sistem real din anul următor. Echivalentul lei pentru 2025 (126.037 lei la 5,0415) provine dintr-o sursă secundară și trebuie verificat pe cursul BNR. GATE 0 (C5, parțial): regula (curs mediu ANUAL BNR al anului de realizare a venitului) e confirmată, dar echivalentul exact în lei pentru 2026 NU poate fi calculat/confirmat oficial înainte de ianuarie 2027 (anul fiscal nu s-a încheiat). Nu se hardcodează o valoare provizorie ca prag de decizie — vezi docs/sources/curs_bnr_2026_prag_norma.md și docs/OPEN_QUESTIONS.md.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cluj_2026"
+      ]
+    },
+    "loss_carryforward": {
+      "years": 5,
+      "max_share_of_net": 0.70,
+      "note": "Reportarea pierderilor NU intră în MVP.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cluj_2026"
+      ]
+    },
+    "vat_standard_rate": {
+      "value": 0.21,
+      "effective_from": "2025-08-01",
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_tva_modificari",
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "vat_reduced_rate": {
+      "value": 0.11,
+      "effective_from": "2025-08-01",
+      "note": "Cotă redusă unică (înlocuiește 5% și 9%). Lista bunurilor/serviciilor se preia din art. 291 Cod fiscal, nu din memorie.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_tva_modificari",
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "vat_exemption_threshold_ron": {
+      "value": 395000,
+      "effective_from": "2025-09-01",
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_tva_modificari",
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "d212_deadline_rule": {
+      "value": "25 mai al anului următor celui de realizare a venitului",
+      "example_for_2026_income": "2027-05-25",
+      "note": "Este și termen de plată. Estimarea veniturilor pentru anul în curs nu mai există ca obligație; Capitolul II din formular privește doar opțiunea de plată a CASS.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cluj_2026",
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    }
+  },
+  "salary": {
+    "status": "VERIFIED_PRIMARY_SOURCES",
+    "note": "Calculatorul de salarii (brut -> net, angajat cu normă întreagă). Bloc separat de 'parameters' (care privește PFA/TVA). Sursele și incertitudinile: docs/sources/salarii_2026.md. Nu acoperă deducerile suplimentare, part-time, facilitățile sectoriale.",
+    "cas_rate": {
+      "value": 0.25,
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "cass_rate": {
+      "value": 0.10,
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "income_tax_rate": {
+      "value": 0.10,
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "cam_rate": {
+      "value": 0.0225,
+      "note": "Contribuția asiguratorie pentru muncă, plătită de angajator; bază = brut minus suma neimpozabilă.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "minimum_wage_h1": {
+      "value": 4050,
+      "unit": "lei/lună",
+      "note": "1 ianuarie - 30 iunie 2026.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "hg_1506_2024_anaf",
+        "hg_146_2026_gate0",
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "minimum_wage_h2": {
+      "value": 4325,
+      "unit": "lei/lună",
+      "note": "De la 1 iulie 2026 (HG 146/2026).",
+      "confidence": "primary_anaf",
+      "sources": [
+        "hg_146_2026_gate0"
+      ]
+    },
+    "min_wage_exempt_amount_h1": {
+      "value": 300,
+      "unit": "lei/lună",
+      "note": "Suma neimpozabilă (scutită de impozit și contribuții) pentru angajații cu salariul de bază = salariul minim, normă întreagă, la funcția de bază; ian-iun.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "salarii_oug_89_2025_suma_neimpozabila"
+      ]
+    },
+    "min_wage_exempt_amount_h2": {
+      "value": 200,
+      "unit": "lei/lună",
+      "note": "Idem, iul-dec.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "salarii_oug_89_2025_suma_neimpozabila"
+      ]
+    },
+    "min_wage_exempt_ceiling_h1": {
+      "value": 4300,
+      "unit": "lei/lună",
+      "note": "Venitul brut total lunar maxim (fără tichete de masă/vacanță) pentru care se acordă suma neimpozabilă; ian-iun.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "salarii_oug_89_2025_suma_neimpozabila"
+      ]
+    },
+    "min_wage_exempt_ceiling_h2": {
+      "value": 4600,
+      "unit": "lei/lună",
+      "note": "Idem, iul-dec.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "salarii_oug_89_2025_suma_neimpozabila"
+      ]
+    },
+    "personal_deduction_limit_above_minimum": {
+      "value": 2000,
+      "unit": "lei",
+      "note": "Deducerea personală de bază se acordă doar dacă venitul brut lunar <= salariul minim + această sumă.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "personal_deduction_band_lei": {
+      "value": 50,
+      "unit": "lei",
+      "note": "Lățimea unei benzi de venit peste salariul minim; la fiecare bandă începută procentul scade cu personal_deduction_band_step.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "personal_deduction_band_step": {
+      "value": 0.005,
+      "note": "Scăderea procentului (0,5 puncte procentuale, ca fracție din salariul minim) pe bandă.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "personal_deduction_base_pct_by_dependants": {
+      "values": [
+        0.20,
+        0.25,
+        0.30,
+        0.35,
+        0.45
+      ],
+      "note": "Procentul din salariul minim la venit brut <= salariul minim, pentru 0, 1, 2, 3 și 4 sau mai multe persoane în întreținere (ultimul element = 4+). Sursa secundară Folositor dă 40% pentru 4+; s-a ales tabelul oficial (45%). Confirmat pe două texte independente (OG 16/2022 de pe portalul oficial și art. 77 consolidat 2026 din oglindă). Rotunjirea deducerii la leu: to_verify.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "verified_on": "2026-09-25"
+  },
+  "dividends": {
+    "status": "VERIFIED_PRIMARY_SOURCES",
+    "note": "Calculatorul de dividende (persoane fizice, dividende de la societăți). Bloc separat de 'parameters'. Surse și incertitudini: docs/sources/dividende_2026.md.",
+    "tax_rate": {
+      "value": 0.16,
+      "note": "Dividende distribuite începând cu 1 ianuarie 2026 (Legea 141/2025); reținut la sursă de societate.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cod_fiscal_consolidat_2026_09_25",
+        "legea_141_2025_anaf"
+      ]
+    },
+    "tax_rate_distributed_2025": {
+      "value": 0.10,
+      "note": "Dividende distribuite în 2025 dar plătite în 2026 rămân impozitate cu cota veche (regula tranzitorie din ghidul ANAF). Cota de 10% pentru 2025 e confirmată de mai multe surse; aplicarea ei la dividende plătite în 2026 vine din ghidul ANAF (citat de StartupCafe); oferită doar ca opțiune explicită, nu automată.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "legea_141_2025_anaf"
+      ]
+    },
+    "cass_rate": {
+      "value": 0.10,
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "cass_threshold_multiples": {
+      "values": [
+        6,
+        12,
+        24
+      ],
+      "note": "Numărul de salarii minime la care începe fiecare treaptă; baza CASS = multiplul respectiv x salariul minim. Fără plafon suplimentar (72 se aplică doar activităților independente). Se compară dividendele NETE (după impozitul reținut) cumulate cu alte venituri extrasalariale.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "minimum_wage_reference": {
+      "value": 4050,
+      "unit": "lei/lună",
+      "note": "Salariul minim de la 1 ianuarie 2026 (art. 135^1); 4.325 din iulie NU se folosește la praguri.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "hg_146_2026_gate0",
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "verified_on": "2026-09-25"
+  },
+  "srl": {
+    "status": "VERIFIED_PRIMARY_SOURCES",
+    "note": "Calculatorul SRL: microîntreprindere vs impozit pe profit. Bloc separat de 'parameters'. Surse și limite: docs/sources/srl_micro_2026.md.",
+    "micro_tax_rate": {
+      "value": 0.01,
+      "note": "Singura cotă micro din 2026 (OUG 89/2025 art. I pct. 4-5: cota de 3% eliminată).",
+      "confidence": "primary_anaf",
+      "sources": [
+        "srl_oug_89_2025_micro",
+        "srl_anaf_cluj_micro_conditii",
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "micro_ceiling_eur": {
+      "value": 100000,
+      "unit": "euro",
+      "note": "Plafonul de venituri pentru micro (intrare la 31 decembrie a anului precedent și verificare cumulată în cursul anului); echivalentul în lei la cursul valabil la închiderea exercițiului precedent.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "srl_anaf_cluj_micro_conditii",
+        "srl_oug_89_2025_micro",
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "eur_ron_rate_end_of_previous_year": {
+      "value": 5.0985,
+      "unit": "lei/euro",
+      "note": "Curs BNR la 31.12.2025, folosit pentru anul fiscal 2026 (100.000 euro = 509.850 lei). Confirmat din surse secundare care citează BNR; fișierul BNR nu a putut fi descărcat.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "bnr_curs_2025_xml",
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "profit_tax_rate": {
+      "value": 0.16,
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cod_fiscal_consolidat_2026_09_25"
+      ]
+    },
+    "verified_on": "2026-09-25"
+  },
+  "radar": {
+    "note": "Tax Radar (ROADMAP PRO, Faza C): setari de PRODUS, nu reguli fiscale. Pragurile fiscale vin din 'parameters', 'dividends' si 'srl'.",
+    "near_threshold_fraction": {
+      "value": 0.10,
+      "note": "Un prag e 'aproape' cand distanta pana la el e cel mult aceasta fractiune din valoarea pragului (ex. sub 10% din 48.600 lei). Decizie de produs, ca pragul de 180 de zile la regulile vechi; nu o cifra fiscala.",
+      "confidence": "product_decision",
+      "sources": []
+    }
+  },
+  "calendar": {
+    "note": "Calendar fiscal personal (ROADMAP PRO, Faza D). Fiecare obligatie are datele ei NOMINALE, ca (luna, zi, an fiscal + decalaj de an); zilele nelucratoare/sarbatorile NU se aplica aici: termenul care cade intr-o zi nelucratoare se muta in prima zi lucratoare (art. 75 CPF -> CPC), iar aplicatia afiseaza data nominala si spune asta. `period` = trimestrul pentru obligatiile trimestriale. Doar obligatiile cu data fixa; obligatiile dependente de un eveniment (ex. impozitul pe dividende, 25 a lunii urmatoare platii) si TVA (lunar/trimestrial, nedeterminabil din profil) NU sunt in calendar.",
+    "d212_annual": {
+      "dates": [
+        {
+          "month": 5,
+          "day": 25,
+          "year_offset": 1
+        }
+      ],
+      "note": "Declaratia unica (D212): impozit pe venit, CAS si CASS pentru veniturile anului fiscal, declarare si plata pana la 25 mai a anului urmator. Se aplica PFA si, pentru CASS pe dividende, cand pragul de 6 salarii minime e atins.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cluj_2026"
+      ]
+    },
+    "micro_quarterly": {
+      "dates": [
+        {
+          "month": 4,
+          "day": 25,
+          "year_offset": 0,
+          "period": 1
+        },
+        {
+          "month": 7,
+          "day": 25,
+          "year_offset": 0,
+          "period": 2
+        },
+        {
+          "month": 10,
+          "day": 25,
+          "year_offset": 0,
+          "period": 3
+        },
+        {
+          "month": 1,
+          "day": 25,
+          "year_offset": 1,
+          "period": 4
+        }
+      ],
+      "note": "Declararea si plata impozitului pe veniturile microintreprinderilor: trimestrial, pana la 25 inclusiv a lunii urmatoare trimestrului (art. 56 alin. 1); trimestrul IV -> 25 ianuarie a anului urmator.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cod_fiscal_consolidat_2026_09_25",
+        "anaf_cod_procedura_fiscala_2026_09_25",
+        "cpc_art181"
+      ]
+    },
+    "profit_quarterly": {
+      "dates": [
+        {
+          "month": 4,
+          "day": 25,
+          "year_offset": 0,
+          "period": 1
+        },
+        {
+          "month": 7,
+          "day": 25,
+          "year_offset": 0,
+          "period": 2
+        },
+        {
+          "month": 10,
+          "day": 25,
+          "year_offset": 0,
+          "period": 3
+        }
+      ],
+      "note": "Impozit pe profit: calcul, declarare si plata trimestrial, pana la 25 inclusiv a primei luni urmatoare trimestrelor I-III (art. 41 alin. 1); si optiunea anuala are plati anticipate trimestriale. Definitivarea pentru trimestrul IV se face la declaratia anuala.",
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cod_fiscal_consolidat_2026_09_25",
+        "anaf_cod_procedura_fiscala_2026_09_25",
+        "cpc_art181"
+      ]
+    },
+    "profit_annual_declaration": {
+      "dates": [
+        {
+          "month": 6,
+          "day": 25,
+          "year_offset": 1
+        }
+      ],
+      "note": "Declaratia anuala privind impozitul pe profit si plata diferentei: pana la 25 iunie inclusiv a anului urmator (art. 42 alin. 1), cu exceptiile din art. 41 alin. 16-17 si an fiscal modificat (nemodelate).",
+      "confidence": "primary_anaf",
+      "sources": [
+        "anaf_cod_fiscal_consolidat_2026_09_25",
+        "anaf_cod_procedura_fiscala_2026_09_25",
+        "cpc_art181"
+      ]
+    }
+  },
+  "reserve": {
+    "note": "Rezerva pentru taxe (ROADMAP PRO, Faza D): setari de PRODUS, nu reguli fiscale.",
+    "partial_fraction": {
+      "value": 0.50,
+      "note": "Rezerva e 'partiala' cand acopera cel putin aceasta fractie din taxele estimate (dar nu toate); sub ea e 'insuficienta'. Decizie de produs.",
+      "confidence": "product_decision",
+      "sources": []
+    }
+  },
+  "local_taxes": {
+    "status": "VERIFIED_PRIMARY_SOURCES",
+    "verified_on": "2026-10-06",
+    "note": "Impozitele locale pe clădiri și mijloace de transport (Legea 227/2015, Titlul IX). Formula NAȚIONALĂ, identică în toată țara; cota locală (HCL) NU e aici: o introduce utilizatorul, local pe telefon. Cotele-interval sunt în procente (unit=percent); implicit se folosește MAXIMUL legal. Surse, lecturi și incertitudini: docs/sources/impozite_locale_2026_cod_fiscal_si_bacau_2026-10-06.md. Ranguri: 0, I..V (art. 453 lit. h; rangul se alege de utilizator).",
+    "bld_usable_to_built_coefficient": {
+      "value": 1.4,
+      "note": "Dacă suprafața construită desfășurată nu se poate măsura la exterior: suprafața utilă x acest coeficient.",
+      "article": "457 alin. (5)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "bld_value_per_sqm": {
+      "unit": "lei/mp",
+      "table": {
+        "A": {
+          "with_installations": 2677,
+          "without_installations": 1606
+        },
+        "B": {
+          "with_installations": 803,
+          "without_installations": 535
+        },
+        "C": {
+          "with_installations": 535,
+          "without_installations": 469
+        },
+        "D": {
+          "with_installations": 335,
+          "without_installations": 201
+        }
+      },
+      "note": "A cadre beton armat/cărămidă arsă; B lemn/piatră naturală/cărămidă nearsă; C anexă tip A; D anexă tip B. 'Cu instalații' = apă, canalizare, electrice și încălzire, cumulativ.",
+      "article": "457 alin. (2) (modificat 01.01.2026, Legea 239/2025 art. XII pct. 28)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "bld_space_factors": {
+      "table": {
+        "basement_as_home": 0.75,
+        "basement_other_use": 0.5
+      },
+      "note": "Subsol/demisol/mansardă folosite ca locuință (E) sau în alt scop (F): fracția din suma care s-ar aplica clădirii.",
+      "article": "457 alin. (2), rândurile E și F",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "bld_zone_rank_coefficients": {
+      "ranks": [
+        "0",
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "table": {
+        "A": [
+          2.6,
+          2.5,
+          2.4,
+          2.3,
+          1.1,
+          1.05
+        ],
+        "B": [
+          2.5,
+          2.4,
+          2.3,
+          2.2,
+          1.05,
+          1.0
+        ],
+        "C": [
+          2.4,
+          2.3,
+          2.2,
+          2.1,
+          1.0,
+          0.95
+        ],
+        "D": [
+          2.3,
+          2.2,
+          2.1,
+          2.0,
+          0.95,
+          0.9
+        ]
+      },
+      "article": "457 alin. (6)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "bld_age_reduction": {
+      "bands": [
+        {
+          "min_age_years": 50,
+          "max_age_years": 100,
+          "reduction": 0.15
+        },
+        {
+          "min_age_years": 101,
+          "max_age_years": null,
+          "reduction": 0.25
+        }
+      ],
+      "note": "Vechimea la 1 ianuarie a anului fiscal = anul fiscal minus anul terminării (citire: pe ani calendaristici). Se aplică valorii determinate după alin. (1)-(6).",
+      "article": "457 alin. (6^1) (OUG 9/2026 art. VII pct. 3, în vigoare 27.02.2026, tot anul fiscal 2026)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "bld_rate_pf_residential": {
+      "unit": "percent",
+      "min": 0.08,
+      "max": 0.2,
+      "note": "Persoane fizice, clădiri rezidențiale. În 2026 minimul efectiv e cota HCL din 2025 (alin. (1^1)), necunoscută aplicației.",
+      "article": "457 alin. (1), (1^1)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "bld_rate_pf_nonresidential": {
+      "unit": "percent",
+      "min": 0.2,
+      "max": 1.3,
+      "note": "Persoane fizice, clădiri nerezidențiale (valoare din raport de evaluare/lucrări/act sau, fără acestea, valoarea art. 457).",
+      "article": "458 alin. (1), (2)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "bld_rate_pj_residential": {
+      "unit": "percent",
+      "min": 0.08,
+      "max": 0.2,
+      "note": "Persoane juridice, rezidențial. Alin. (1) se abrogă de la 01.01.2027 (Legea 239/2025 art. XII pct. 32).",
+      "article": "460 alin. (1)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "bld_rate_pj_nonresidential": {
+      "unit": "percent",
+      "min": 0.2,
+      "max": 1.3,
+      "article": "460 alin. (2)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "bld_rate_mixed_undeclared": {
+      "unit": "percent",
+      "value": 0.3,
+      "note": "Clădire cu destinație mixtă (PF) pentru care proprietarul nu declară suprafața nerezidențială: cota fixă pe valoarea art. 457.",
+      "article": "459 alin. (3)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "bld_rate_pj_agricultural": {
+      "unit": "percent",
+      "value": 0.4,
+      "note": "Persoane juridice, clădiri nerezidențiale folosite pentru activități din domeniul agricol: cotă fixă.",
+      "article": "460 alin. (3)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "local_additional_rate_max": {
+      "unit": "percent",
+      "value": 100,
+      "note": "Cotele adiționale pot fi de până la acest procent față de nivelurile maxime din Titlul IX.",
+      "article": "489 alin. (2) (modificat Legea 239/2025 art. XII pct. 48)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "hv_building_rate": {
+      "unit": "percent",
+      "value": 0.9,
+      "note": "Impozitul special pe bunurile imobile și mobile de valoare mare — clădiri rezidențiale ale persoanelor fizice: cota se aplică DOAR diferenței peste plafon. Se plătește la bugetul de stat (ANAF), nu la primărie (art. 500^3 alin. 4).",
+      "article": "Titlul X^1, art. 500^2 lit. a)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "hv_building_threshold": {
+      "unit": "lei",
+      "value": 2500000,
+      "note": "Valoarea impozabilă a clădirii rezidențiale calculată potrivit art. 457 (comunicată de organul fiscal local) peste care se datorează impozitul special.",
+      "article": "Titlul X^1, art. 500^1 alin. (1) lit. a) și art. 500^2 lit. a)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "hv_car_rate": {
+      "unit": "percent",
+      "value": 0.9,
+      "note": "Autoturisme: cota se aplică DOAR diferenței dintre valoarea de achiziție și plafon.",
+      "article": "Titlul X^1, art. 500^2 lit. b)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "hv_car_threshold": {
+      "unit": "lei",
+      "value": 375000,
+      "note": "Valoarea de achiziție individuală a unui autoturism înmatriculat/înregistrat în România peste care se datorează impozitul special (persoane fizice și juridice).",
+      "article": "Titlul X^1, art. 500^1 lit. b) și art. 500^2 lit. b)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "hv_car_period_years": {
+      "unit": "ani",
+      "value": 5,
+      "note": "Impozitul se datorează pe o perioadă de 5 ani începând cu anul fiscal în care are loc predarea-primirea autoturismului (sau pentru fracțiunea de ani rămasă, la cele predate anterior).",
+      "article": "Titlul X^1, art. 500^1 lit. b)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "hv_deadlines": {
+      "building_month": 9,
+      "building_day": 30,
+      "car_month": 12,
+      "car_day": 31,
+      "note": "Termenele de declarare și plată la ANAF: clădiri rezidențiale până la 30 septembrie; autoturisme până la 31 decembrie a anului fiscal.",
+      "article": "Titlul X^1, art. 500^3 alin. (2), (3)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "trn_cc_group": {
+      "unit": "cmc",
+      "value": 200,
+      "note": "Impozitul se calculează pe fiecare grupă de 200 cmc sau fracțiune din aceasta.",
+      "article": "470 alin. (2)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "trn_euro_table": {
+      "unit": "lei/200 cmc",
+      "columns": [
+        "NON_EURO_E0_E3",
+        "E4",
+        "E5",
+        "E6",
+        "HYBRID_CO2_OVER_50"
+      ],
+      "rows": [
+        {
+          "id": "moto_car_to_1600",
+          "applies_to": [
+            "CAR",
+            "MOTORCYCLE"
+          ],
+          "cc_over": 0,
+          "cc_up_to": 1600,
+          "values": [
+            19.5,
+            18.8,
+            17.6,
+            16.5,
+            16.2
+          ]
+        },
+        {
+          "id": "moto_over_1600",
+          "applies_to": [
+            "MOTORCYCLE"
+          ],
+          "cc_over": 1600,
+          "cc_up_to": null,
+          "values": [
+            22.1,
+            21.3,
+            19.9,
+            18.7,
+            18.4
+          ]
+        },
+        {
+          "id": "car_1601_2000",
+          "applies_to": [
+            "CAR"
+          ],
+          "cc_over": 1600,
+          "cc_up_to": 2000,
+          "values": [
+            29.7,
+            28.5,
+            26.7,
+            25.1,
+            24.6
+          ]
+        },
+        {
+          "id": "car_2001_2600",
+          "applies_to": [
+            "CAR"
+          ],
+          "cc_over": 2000,
+          "cc_up_to": 2600,
+          "values": [
+            92.2,
+            88.6,
+            82.8,
+            77.8,
+            76.3
+          ]
+        },
+        {
+          "id": "car_2601_3000",
+          "applies_to": [
+            "CAR"
+          ],
+          "cc_over": 2600,
+          "cc_up_to": 3000,
+          "values": [
+            182.9,
+            172.8,
+            154.1,
+            151.2,
+            149.8
+          ]
+        },
+        {
+          "id": "car_over_3000",
+          "applies_to": [
+            "CAR"
+          ],
+          "cc_over": 3000,
+          "cc_up_to": null,
+          "values": [
+            319.0,
+            297.3,
+            294.4,
+            290.0,
+            275.5
+          ]
+        },
+        {
+          "id": "bus",
+          "applies_to": [
+            "BUS"
+          ],
+          "cc_over": null,
+          "cc_up_to": null,
+          "values": [
+            31.2,
+            30.0,
+            28.1,
+            26.4,
+            25.9
+          ]
+        },
+        {
+          "id": "other_to_12t",
+          "applies_to": [
+            "OTHER_TO_12T"
+          ],
+          "cc_over": null,
+          "cc_up_to": null,
+          "values": [
+            39.0,
+            37.5,
+            35.1,
+            33.0,
+            32.4
+          ]
+        }
+      ],
+      "note": "Rândul 6 (autoturisme) spune „peste 3.001 cmc”: aici e citit ca peste 3.000 cmc (vezi trn_cc_literal_gap_car).",
+      "article": "470 alin. (2) (modificat 01.01.2026, OUG 78/2025 art. I pct. 2)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "trn_cc_literal_gap_car": {
+      "unit": "cmc",
+      "value": 3001,
+      "note": "Textul spune „peste 3.001 cmc” la autoturisme, deși rândul anterior se termină la „3.000 cmc inclusiv”: exact această capacitate nu e acoperită literal de niciun rând. Aplicația folosește categoria SUPERIOARĂ (impozit mai mare) și o spune utilizatorului pe ecran.",
+      "article": "470 alin. (2), rândurile 5 și 6",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "trn_electric_per_year": {
+      "unit": "lei/an",
+      "value": 40,
+      "note": "Autovehicule acționate electric.",
+      "article": "470 alin. (3^1) (Legea 239/2025 art. XII pct. 46)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "trn_hybrid_max_reduction": {
+      "unit": "percent",
+      "value": 30,
+      "note": "Hibride cu CO2 <= 50 g/km: reducere de cel mult acest procent din valoarea coloanei hibrid, conform HCL (introdusă de utilizator).",
+      "article": "470 alin. (3)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "trn_hybrid_co2_threshold": {
+      "unit": "g/km",
+      "value": 50,
+      "note": "Hibridele cu emisii de CO2 mai mici sau egale cu acest prag beneficiază de reducerea locală; peste prag se aplică coloana „Hibride” din tabel.",
+      "article": "470 alin. (2), (3)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "trn_sidecar_fraction": {
+      "value": 0.5,
+      "note": "Ataș: fracția din impozitul motocicletei respective.",
+      "article": "470 alin. (4)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "trn_registered_vehicles": {
+      "tractor_per_200cc": 18,
+      "cc_threshold": 4800,
+      "up_to_threshold": {
+        "min": 2,
+        "max": 4
+      },
+      "over_threshold": {
+        "min": 4,
+        "max": 6
+      },
+      "no_cc_per_year": {
+        "min": 50,
+        "max": 150
+      },
+      "note": "Tractoare înmatriculate: lei/200 cmc (fix). Vehicule înregistrate: interval lei/200 cmc după capacitate (text: „< 4.800” și „> 4.800”; exact 4.800 cmc nu e acoperit literal: aplicația folosește intervalul SUPERIOR și o spune pe ecran) sau lei/an fără capacitate evidențiată.",
+      "article": "470 alin. (2^2) (Legea 239/2025 art. XII pct. 44)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "trn_heavy_goods": {
+      "unit": "lei/an",
+      "by_axles": {
+        "2": [
+          {
+            "min_t": 12,
+            "max_t": 13,
+            "pneumatic": 0,
+            "other": 142
+          },
+          {
+            "min_t": 13,
+            "max_t": 14,
+            "pneumatic": 142,
+            "other": 395
+          },
+          {
+            "min_t": 14,
+            "max_t": 15,
+            "pneumatic": 395,
+            "other": 555
+          },
+          {
+            "min_t": 15,
+            "max_t": 18,
+            "pneumatic": 555,
+            "other": 1257
+          },
+          {
+            "min_t": 18,
+            "max_t": null,
+            "pneumatic": 555,
+            "other": 1257
+          }
+        ],
+        "3": [
+          {
+            "min_t": 15,
+            "max_t": 17,
+            "pneumatic": 142,
+            "other": 248
+          },
+          {
+            "min_t": 17,
+            "max_t": 19,
+            "pneumatic": 248,
+            "other": 509
+          },
+          {
+            "min_t": 19,
+            "max_t": 21,
+            "pneumatic": 509,
+            "other": 661
+          },
+          {
+            "min_t": 21,
+            "max_t": 23,
+            "pneumatic": 661,
+            "other": 1019
+          },
+          {
+            "min_t": 23,
+            "max_t": 25,
+            "pneumatic": 1019,
+            "other": 1583
+          },
+          {
+            "min_t": 25,
+            "max_t": 26,
+            "pneumatic": 1019,
+            "other": 1583
+          },
+          {
+            "min_t": 26,
+            "max_t": null,
+            "pneumatic": 1019,
+            "other": 1583
+          }
+        ],
+        "4": [
+          {
+            "min_t": 23,
+            "max_t": 25,
+            "pneumatic": 661,
+            "other": 670
+          },
+          {
+            "min_t": 25,
+            "max_t": 27,
+            "pneumatic": 670,
+            "other": 1046
+          },
+          {
+            "min_t": 27,
+            "max_t": 29,
+            "pneumatic": 1046,
+            "other": 1661
+          },
+          {
+            "min_t": 29,
+            "max_t": 31,
+            "pneumatic": 1661,
+            "other": 2464
+          },
+          {
+            "min_t": 31,
+            "max_t": 32,
+            "pneumatic": 1661,
+            "other": 2464
+          },
+          {
+            "min_t": 32,
+            "max_t": null,
+            "pneumatic": 1661,
+            "other": 2464
+          }
+        ]
+      },
+      "note": "Autovehicul de transport marfă cu masa totală autorizată >= 12 t. Banda: masă >= min_t și < max_t (max_t null = nelimitat). 'pneumatic' = axe motoare cu suspensie pneumatică sau echivalent; 'other' = alte sisteme. Norma Euro NU intră în acest tabel.",
+      "article": "470 alin. (5) (modificat OUG 79/2017; indexabil anual prin HCL, art. 491 alin. (2))",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "trn_heavy_combinations": {
+      "unit": "lei/an",
+      "by_config": {
+        "2+1": [
+          {
+            "min_t": 12,
+            "max_t": 14,
+            "pneumatic": 0,
+            "other": 0
+          },
+          {
+            "min_t": 14,
+            "max_t": 16,
+            "pneumatic": 0,
+            "other": 0
+          },
+          {
+            "min_t": 16,
+            "max_t": 18,
+            "pneumatic": 0,
+            "other": 64
+          },
+          {
+            "min_t": 18,
+            "max_t": 20,
+            "pneumatic": 64,
+            "other": 147
+          },
+          {
+            "min_t": 20,
+            "max_t": 22,
+            "pneumatic": 147,
+            "other": 344
+          },
+          {
+            "min_t": 22,
+            "max_t": 23,
+            "pneumatic": 344,
+            "other": 445
+          },
+          {
+            "min_t": 23,
+            "max_t": 25,
+            "pneumatic": 445,
+            "other": 803
+          },
+          {
+            "min_t": 25,
+            "max_t": 28,
+            "pneumatic": 803,
+            "other": 1408
+          },
+          {
+            "min_t": 28,
+            "max_t": null,
+            "pneumatic": 803,
+            "other": 1408
+          }
+        ],
+        "2+2": [
+          {
+            "min_t": 23,
+            "max_t": 25,
+            "pneumatic": 138,
+            "other": 321
+          },
+          {
+            "min_t": 25,
+            "max_t": 26,
+            "pneumatic": 321,
+            "other": 528
+          },
+          {
+            "min_t": 26,
+            "max_t": 28,
+            "pneumatic": 528,
+            "other": 775
+          },
+          {
+            "min_t": 28,
+            "max_t": 29,
+            "pneumatic": 775,
+            "other": 936
+          },
+          {
+            "min_t": 29,
+            "max_t": 31,
+            "pneumatic": 936,
+            "other": 1537
+          },
+          {
+            "min_t": 31,
+            "max_t": 33,
+            "pneumatic": 1537,
+            "other": 2133
+          },
+          {
+            "min_t": 33,
+            "max_t": 36,
+            "pneumatic": 2133,
+            "other": 3239
+          },
+          {
+            "min_t": 36,
+            "max_t": 38,
+            "pneumatic": 2133,
+            "other": 3239
+          },
+          {
+            "min_t": 38,
+            "max_t": null,
+            "pneumatic": 2133,
+            "other": 3239
+          }
+        ],
+        "2+3": [
+          {
+            "min_t": 36,
+            "max_t": 38,
+            "pneumatic": 1698,
+            "other": 2363
+          },
+          {
+            "min_t": 38,
+            "max_t": 40,
+            "pneumatic": 2363,
+            "other": 3211
+          },
+          {
+            "min_t": 40,
+            "max_t": null,
+            "pneumatic": 2363,
+            "other": 3211
+          }
+        ],
+        "3+2": [
+          {
+            "min_t": 36,
+            "max_t": 38,
+            "pneumatic": 1500,
+            "other": 2083
+          },
+          {
+            "min_t": 38,
+            "max_t": 40,
+            "pneumatic": 2083,
+            "other": 2881
+          },
+          {
+            "min_t": 40,
+            "max_t": 44,
+            "pneumatic": 2881,
+            "other": 4262
+          },
+          {
+            "min_t": 44,
+            "max_t": null,
+            "pneumatic": 2881,
+            "other": 4262
+          }
+        ],
+        "3+3": [
+          {
+            "min_t": 36,
+            "max_t": 38,
+            "pneumatic": 853,
+            "other": 1032
+          },
+          {
+            "min_t": 38,
+            "max_t": 40,
+            "pneumatic": 1032,
+            "other": 1542
+          },
+          {
+            "min_t": 40,
+            "max_t": 44,
+            "pneumatic": 1542,
+            "other": 2454
+          },
+          {
+            "min_t": 44,
+            "max_t": null,
+            "pneumatic": 1542,
+            "other": 2454
+          }
+        ]
+      },
+      "note": "Combinație de autovehicule, autovehicul articulat sau tren rutier de transport marfă cu masa totală maximă autorizată >= 12 t. Aceeași convenție de benzi ca la autovehiculele rigide.",
+      "article": "470 alin. (6) (modificat OUG 79/2017; indexabil anual prin HCL, art. 491 alin. (2))",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    },
+    "trn_trailers": {
+      "unit": "lei/an",
+      "bands": [
+        {
+          "up_to_t": 1,
+          "tax": 9
+        },
+        {
+          "up_to_t": 3,
+          "tax": 34
+        },
+        {
+          "up_to_t": 5,
+          "tax": 52
+        },
+        {
+          "up_to_t": null,
+          "tax": 64
+        }
+      ],
+      "note": "Remorcă, semiremorcă sau rulotă care nu face parte dintr-o combinație de la alin. (6). Masa totală maximă autorizată: până la 1 t inclusiv; peste 1 t, nu mai mult de 3 t; peste 3 t, nu mai mult de 5 t; peste 5 t.",
+      "article": "470 alin. (7)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "cod_fiscal_consolidat_just_2026_08_08"
+      ]
+    }
+  },
+  "rovinieta": {
+    "status": "VERIFIED_PRIMARY_SOURCES",
+    "verified_on": "2026-10-06",
+    "note": "Rovinieta (Legea 226/2023 + Ordinul MTI 888/2026, MO 818/25.09.2026): tarif public fix, în lei cu TVA inclus, după categoria vehiculului, clasa de emisii (Euro/electric) și durată; NU depinde de consiliul local. Vehiculele de marfă cu MTMA peste 3,5 t nu mai cumpără rovinietă (sistemul TollRo, art. 4 alin. 1 din lege). Aplicația nu vinde rovinieta: doar calculează prețul și oferă un memento.",
+    "tariffs": {
+      "article": "Ordinul MTI 888/2026, anexa (aprobat în temeiul art. 5 alin. (4) din Legea 226/2023)",
+      "currency": "lei, TVA inclus",
+      "columns": [
+        "ELECTRIC",
+        "EURO_VI",
+        "EURO_V_IV",
+        "EURO_III_0"
+      ],
+      "durations": [
+        "DAY_1",
+        "DAYS_10",
+        "DAYS_30",
+        "DAYS_60",
+        "MONTHS_12"
+      ],
+      "categories": {
+        "A": {
+          "DAY_1": {
+            "ELECTRIC": 20,
+            "EURO_VI": 22,
+            "EURO_V_IV": 26,
+            "EURO_III_0": 29
+          },
+          "DAYS_10": {
+            "ELECTRIC": 27,
+            "EURO_VI": 30,
+            "EURO_V_IV": 35,
+            "EURO_III_0": 39
+          },
+          "DAYS_30": {
+            "ELECTRIC": 43,
+            "EURO_VI": 48,
+            "EURO_V_IV": 55,
+            "EURO_III_0": 62
+          },
+          "DAYS_60": {
+            "ELECTRIC": 68,
+            "EURO_VI": 76,
+            "EURO_V_IV": 87,
+            "EURO_III_0": 99
+          },
+          "MONTHS_12": {
+            "ELECTRIC": 228,
+            "EURO_VI": 254,
+            "EURO_V_IV": 292,
+            "EURO_III_0": 330
+          }
+        },
+        "B": {
+          "DAY_1": {
+            "ELECTRIC": 46,
+            "EURO_VI": 52,
+            "EURO_V_IV": 59,
+            "EURO_III_0": 67
+          },
+          "DAYS_10": {
+            "ELECTRIC": 62,
+            "EURO_VI": 69,
+            "EURO_V_IV": 79,
+            "EURO_III_0": 90
+          },
+          "DAYS_30": {
+            "ELECTRIC": 98,
+            "EURO_VI": 110,
+            "EURO_V_IV": 126,
+            "EURO_III_0": 142
+          },
+          "DAYS_60": {
+            "ELECTRIC": 156,
+            "EURO_VI": 173,
+            "EURO_V_IV": 199,
+            "EURO_III_0": 225
+          },
+          "MONTHS_12": {
+            "ELECTRIC": 521,
+            "EURO_VI": 579,
+            "EURO_V_IV": 665,
+            "EURO_III_0": 752
+          }
+        },
+        "C": {
+          "DAY_1": {
+            "ELECTRIC": 49,
+            "EURO_VI": 54,
+            "EURO_V_IV": 63,
+            "EURO_III_0": 71
+          },
+          "DAYS_10": {
+            "ELECTRIC": 156,
+            "EURO_VI": 173,
+            "EURO_V_IV": 199,
+            "EURO_III_0": 225
+          },
+          "DAYS_30": {
+            "ELECTRIC": 247,
+            "EURO_VI": 274,
+            "EURO_V_IV": 315,
+            "EURO_III_0": 356
+          },
+          "DAYS_60": {
+            "ELECTRIC": 390,
+            "EURO_VI": 433,
+            "EURO_V_IV": 498,
+            "EURO_III_0": 563
+          },
+          "MONTHS_12": {
+            "ELECTRIC": 2471,
+            "EURO_VI": 2746,
+            "EURO_V_IV": 3157,
+            "EURO_III_0": 3569
+          }
+        },
+        "D": {
+          "DAY_1": {
+            "ELECTRIC": 86,
+            "EURO_VI": 96,
+            "EURO_V_IV": 110,
+            "EURO_III_0": 124
+          },
+          "DAYS_10": {
+            "ELECTRIC": 273,
+            "EURO_VI": 303,
+            "EURO_V_IV": 349,
+            "EURO_III_0": 394
+          },
+          "DAYS_30": {
+            "ELECTRIC": 432,
+            "EURO_VI": 480,
+            "EURO_V_IV": 552,
+            "EURO_III_0": 624
+          },
+          "DAYS_60": {
+            "ELECTRIC": 683,
+            "EURO_VI": 759,
+            "EURO_V_IV": 872,
+            "EURO_III_0": 986
+          },
+          "MONTHS_12": {
+            "ELECTRIC": 4326,
+            "EURO_VI": 4807,
+            "EURO_V_IV": 5528,
+            "EURO_III_0": 6249
+          }
+        }
+      },
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "ordin_mti_888_2026_portal"
+      ]
+    },
+    "category_limits": {
+      "car_max_seats": 9,
+      "freight_max_tonnes": 3.5,
+      "mid_bus_max_seats": 23,
+      "note": "Limitele care definesc categoriile din anexă: autoturism (A) până la 9 locuri incl. șofer; marfă (B) cu MTMA până la 3,5 t inclusiv — peste, TollRo; persoane C: 10-23 locuri; D: peste 23.",
+      "article": "Ordin MTI 888/2026 anexa; Legea 226/2023 art. 4 alin. (1)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "ordin_mti_888_2026_portal",
+        "legea_226_2023_portal"
+      ]
+    },
+    "default_emission_class": {
+      "value": "EURO_III_0",
+      "note": "Dacă nu pot fi furnizate date privind clasa de emisii, vehiculul se încadrează în clasa Euro 0 (Legea 226/2023 art. 6 alin. 3; Ordinul 888/2026, nota 1 din anexă) — coloana cu tariful cel mai mare.",
+      "article": "Legea 226/2023 art. 6 alin. (3); Ordin 888/2026 anexa nota 1)",
+      "confidence": "official_portal_consolidated_2026",
+      "sources": [
+        "legea_226_2023_portal",
+        "ordin_mti_888_2026_portal"
+      ]
+    },
+    "reminder_days_before": {
+      "value": 3,
+      "note": "Cu câte zile înainte de data expirării se trimite memento-ul (setare de produs, nu regulă fiscală).",
+      "confidence": "product_decision",
+      "sources": []
+    }
+  },
+  "explanation_sources": {
+    "note": "Legatura dintre pasii din \"De ce?\" (ruleId din explicatiile motorului) si parametrii de care depind. Sursele si increderea nu se repeta aici: se iau din parametrii referiti (bloc.parametru), ca sa existe o singura lista de surse. Pasii doar aritmetici (net = venit - taxe etc.) nu au intrare: nu au sursa proprie. Testele din :app verifica ca fiecare ruleId produs de motor are intrare aici sau e pe lista de pasi aritmetici.",
+    "rules": {
+      "rovinieta_tariff": {
+        "parameters": [
+          "rovinieta.tariffs",
+          "rovinieta.default_emission_class"
+        ]
+      },
+      "bld_taxable_value": {
+        "parameters": [
+          "local_taxes.bld_usable_to_built_coefficient",
+          "local_taxes.bld_value_per_sqm",
+          "local_taxes.bld_space_factors"
+        ]
+      },
+      "bld_zone_rank_coefficient": {
+        "parameters": [
+          "local_taxes.bld_zone_rank_coefficients"
+        ]
+      },
+      "bld_age_reduction": {
+        "parameters": [
+          "local_taxes.bld_age_reduction"
+        ]
+      },
+      "bld_rate": {
+        "parameters": [
+          "local_taxes.bld_rate_pf_residential",
+          "local_taxes.bld_rate_pf_nonresidential",
+          "local_taxes.bld_rate_pj_residential",
+          "local_taxes.bld_rate_pj_nonresidential",
+          "local_taxes.bld_rate_mixed_undeclared",
+          "local_taxes.bld_rate_pj_agricultural"
+        ]
+      },
+      "trn_euro_rate": {
+        "parameters": [
+          "local_taxes.trn_cc_group",
+          "local_taxes.trn_euro_table",
+          "local_taxes.trn_cc_literal_gap_car"
+        ]
+      },
+      "trn_electric": {
+        "parameters": [
+          "local_taxes.trn_electric_per_year"
+        ]
+      },
+      "trn_hybrid_reduction": {
+        "parameters": [
+          "local_taxes.trn_hybrid_max_reduction",
+          "local_taxes.trn_hybrid_co2_threshold"
+        ]
+      },
+      "trn_sidecar": {
+        "parameters": [
+          "local_taxes.trn_sidecar_fraction"
+        ]
+      },
+      "trn_registered": {
+        "parameters": [
+          "local_taxes.trn_cc_group",
+          "local_taxes.trn_registered_vehicles"
+        ]
+      },
+      "trn_heavy_goods": {
+        "parameters": [
+          "local_taxes.trn_heavy_goods"
+        ]
+      },
+      "trn_heavy_combination": {
+        "parameters": [
+          "local_taxes.trn_heavy_combinations"
+        ]
+      },
+      "trn_trailer": {
+        "parameters": [
+          "local_taxes.trn_trailers"
+        ]
+      },
+      "hv_building": {
+        "parameters": [
+          "local_taxes.hv_building_rate",
+          "local_taxes.hv_building_threshold"
+        ]
+      },
+      "hv_car": {
+        "parameters": [
+          "local_taxes.hv_car_rate",
+          "local_taxes.hv_car_threshold",
+          "local_taxes.hv_car_period_years"
+        ]
+      },
+      "local_additional_rate": {
+        "parameters": [
+          "local_taxes.local_additional_rate_max"
+        ]
+      },
+      "cas_low_base_multiple": {
+        "parameters": [
+          "parameters.cas_rate",
+          "parameters.cas_low_base_multiple",
+          "parameters.cas_high_base_multiple",
+          "parameters.smbt_reference"
+        ]
+      },
+      "cas_high_base_multiple": {
+        "parameters": [
+          "parameters.cas_rate",
+          "parameters.cas_low_base_multiple",
+          "parameters.cas_high_base_multiple",
+          "parameters.smbt_reference"
+        ]
+      },
+      "cas_not_owed_below_threshold": {
+        "parameters": [
+          "parameters.cas_rate",
+          "parameters.cas_low_base_multiple",
+          "parameters.smbt_reference"
+        ]
+      },
+      "cass_zero_income_or_loss": {
+        "parameters": [
+          "parameters.cass_min_base_multiple"
+        ]
+      },
+      "cass_min_base_multiple": {
+        "parameters": [
+          "parameters.cass_rate",
+          "parameters.cass_min_base_multiple",
+          "parameters.smbt_reference"
+        ]
+      },
+      "cass_regular_base": {
+        "parameters": [
+          "parameters.cass_rate",
+          "parameters.cass_min_base_multiple",
+          "parameters.cass_max_base_multiple",
+          "parameters.smbt_reference"
+        ]
+      },
+      "income_tax_rate": {
+        "parameters": [
+          "parameters.income_tax_rate"
+        ]
+      },
+      "norma_min_multiple": {
+        "parameters": [
+          "parameters.norma_min_multiple",
+          "parameters.smbt_reference"
+        ]
+      },
+      "norma_venit_coeficienti": {
+        "parameters": [
+          "parameters.norma_min_multiple"
+        ]
+      },
+      "cas_cass_identic_sistem_real": {
+        "parameters": [
+          "parameters.cas_rate",
+          "parameters.cass_rate"
+        ]
+      },
+      "income_tax_rate_norma": {
+        "parameters": [
+          "parameters.income_tax_rate"
+        ]
+      },
+      "vat_from_net": {
+        "parameters": [
+          "parameters.vat_standard_rate",
+          "parameters.vat_reduced_rate"
+        ]
+      },
+      "vat_from_gross": {
+        "parameters": [
+          "parameters.vat_standard_rate",
+          "parameters.vat_reduced_rate"
+        ]
+      },
+      "salary_base": {
+        "parameters": [
+          "salary.min_wage_exempt_amount_h1",
+          "salary.min_wage_exempt_amount_h2",
+          "salary.min_wage_exempt_ceiling_h1",
+          "salary.min_wage_exempt_ceiling_h2"
+        ]
+      },
+      "salary_cas_cass": {
+        "parameters": [
+          "salary.cas_rate",
+          "salary.cass_rate"
+        ]
+      },
+      "salary_personal_deduction": {
+        "parameters": [
+          "salary.personal_deduction_base_pct_by_dependants",
+          "salary.personal_deduction_band_lei",
+          "salary.personal_deduction_band_step",
+          "salary.personal_deduction_limit_above_minimum",
+          "salary.minimum_wage_h1",
+          "salary.minimum_wage_h2"
+        ]
+      },
+      "salary_income_tax": {
+        "parameters": [
+          "salary.income_tax_rate"
+        ]
+      },
+      "salary_cam": {
+        "parameters": [
+          "salary.cam_rate"
+        ]
+      },
+      "dividend_tax": {
+        "parameters": [
+          "dividends.tax_rate",
+          "dividends.tax_rate_distributed_2025"
+        ]
+      },
+      "dividend_cass_base": {
+        "parameters": [
+          "dividends.cass_threshold_multiples",
+          "dividends.minimum_wage_reference"
+        ]
+      },
+      "dividend_cass": {
+        "parameters": [
+          "dividends.cass_rate",
+          "dividends.cass_threshold_multiples"
+        ]
+      },
+      "srl_micro_eligibility": {
+        "parameters": [
+          "srl.micro_ceiling_eur",
+          "srl.eur_ron_rate_end_of_previous_year"
+        ]
+      },
+      "srl_micro_tax": {
+        "parameters": [
+          "srl.micro_tax_rate"
+        ]
+      },
+      "srl_profit_tax": {
+        "parameters": [
+          "srl.profit_tax_rate"
+        ]
+      }
+    }
+  },
+  "derived_thresholds_check_2026": {
+    "note": "Testul din :rules trebuie să obțină exact aceste valori din smbt_reference x multipli.",
+    "cass_min_base": 24300,
+    "cas_low_base": 48600,
+    "cas_high_base": 97200,
+    "cass_max_base": 291600,
+    "cas_low_amount": 12150,
+    "cas_high_amount": 24300,
+    "cass_max_amount": 29160,
+    "cass_min_amount": 2430
+  },
+  "not_in_mvp": [
+    "pierderi fiscale reportate",
+    "pensionari (CAS exceptat; CASS fără diferență până la 6 SM)",
+    "persoane cu handicap grav/accentuat",
+    "contracte de activitate sportivă, drepturi de autor, chirii, dividende, crypto",
+    "cazare/închiriere pe termen scurt (cotă forfetară 30%)",
+    "venituri din străinătate",
+    "asocieri (formular 204)",
+    "TVA la încasare, cota 9% tranzitorie pentru locuințe",
+    "bonificația de 3% (OUG 8/2026: a vizat veniturile 2025, termen 15 aprilie 2026; nu se presupune repetată)"
+  ],
+  "open_items": [
+    "C1: REZOLVAT (Gate 0, 2026-09-22) — art. 174 alin. (2)/(6)/(7) confirmă poziția ANAF Cluj; vezi docs/sources/legea_227_2015_art174_cass.md. Rămâne, ca îmbunătățire non-blocantă, o citire verbatim directă pe legislatie.just.ro/static.anaf.ro (sursa folosită e o oglindă terță).",
+    "C2: REZOLVAT (Gate 0, 2026-09-22) — smbt_reference=4050 confirmat prin art. 135^1 (OUG 128/2024); HG 146/2026 confirmă doar existența majorării la 4.325 lei din 1 iulie 2026, care NU se aplică plafoanelor 2026. Vezi docs/sources/legea_227_2015_art148_salariul_minim.md și docs/sources/hg_146_2026_salariul_minim.md.",
+    "C3: PARȚIAL (Gate 0, 2026-09-22) — existența formularului/instrucțiunilor OPANAF 2736/2025 confirmată și arhivată (PDF+hash), dar formula exactă de rotunjire NU a putut fi extrasă verbatim din PDF. Rămâne `to_verify`, mutat și în docs/OPEN_QUESTIONS.md. NU se implementează o convenție de rotunjire în engine până la confirmare.",
+    "C4: data la care încetează cota tranzitorie de 9% (surse: 31 iulie 2026 vs 30 septembrie 2026) — irelevant pentru MVP, de rezolvat înainte de a adăuga TVA pe locuințe (lăsat neatins conform instrucțiunilor Gate 0)",
+    "C5: PARȚIAL (Gate 0, 2026-09-22) — regula (curs mediu ANUAL BNR) confirmată; valoarea exactă în lei pentru 2026 nu poate fi cunoscută oficial înainte de ianuarie 2027 (anul fiscal în curs). Vezi docs/sources/curs_bnr_2026_prag_norma.md. Nu se hardcodează o estimare ca prag de decizie."
+  ],
+  "holidays": {
+    "note": "Zilele de sărbătoare legală în care nu se lucrează (Codul muncii art. 139 alin. (1)). Datele fixe sunt luna/ziua; sărbătorile mobile sunt decalaje în zile față de PRIMA zi de Paști ortodox (Vinerea Mare = -2, Rusalii = +49 și +50). Data Paștelui se calculează în cod (computul pascal iulian, valabil 1900-2099). Nu include zilele libere din art. 139 alin. (4) (punți pentru sistemul bugetar, stabilite anual prin HG) și nici zilele pentru cultele religioase legale, altele decât cele creștine (alin. (1) ultima liniuță). Weekendul e zi nelucrătoare fără a fi listat aici.",
+    "fixed": [
+      {
+        "id": "new_year_1",
+        "month": 1,
+        "day": 1
+      },
+      {
+        "id": "new_year_2",
+        "month": 1,
+        "day": 2
+      },
+      {
+        "id": "epiphany",
+        "month": 1,
+        "day": 6
+      },
+      {
+        "id": "saint_john",
+        "month": 1,
+        "day": 7
+      },
+      {
+        "id": "union_day",
+        "month": 1,
+        "day": 24
+      },
+      {
+        "id": "labour_day",
+        "month": 5,
+        "day": 1
+      },
+      {
+        "id": "children_day",
+        "month": 6,
+        "day": 1
+      },
+      {
+        "id": "assumption",
+        "month": 8,
+        "day": 15
+      },
+      {
+        "id": "saint_andrew",
+        "month": 11,
+        "day": 30
+      },
+      {
+        "id": "national_day",
+        "month": 12,
+        "day": 1
+      },
+      {
+        "id": "christmas_1",
+        "month": 12,
+        "day": 25
+      },
+      {
+        "id": "christmas_2",
+        "month": 12,
+        "day": 26
+      }
+    ],
+    "easter_relative": [
+      {
+        "id": "good_friday",
+        "offset": -2
+      },
+      {
+        "id": "easter_1",
+        "offset": 0
+      },
+      {
+        "id": "easter_2",
+        "offset": 1
+      },
+      {
+        "id": "pentecost_1",
+        "offset": 49
+      },
+      {
+        "id": "pentecost_2",
+        "offset": 50
+      }
+    ],
+    "fixed_confidence": "primary_anaf",
+    "fixed_sources": [
+      "codul_muncii_art139"
+    ],
+    "easter_confidence": "primary_anaf",
+    "easter_sources": [
+      "codul_muncii_art139",
+      "paste_ortodox_2026_digi24"
+    ],
+    "deadline_shift": {
+      "note": "Un termen care cade într-o zi nelucrătoare (sâmbătă, duminică, sărbătoare legală) se prelungește până în prima zi lucrătoare care urmează: Codul de procedură fiscală art. 75 (trimite la Codul de procedură civilă) și Codul de procedură civilă art. 181 alin. (2).",
+      "confidence": "primary_anaf",
+      "sources": [
+        "cpc_art181",
+        "calendar_cpf_art75"
+      ]
+    }
+  },
+  "entitlements": {
+    "note": "Modelul FREE/PRO (Faza I, D8 din PLAN.md): setari de PRODUS, nu reguli fiscale. Limitele stau intr-un singur loc; pretul abonamentului (O4) NU e decis: price_label ramane gol si interfata nu arata niciun pret.",
+    "trial_days": {
+      "value": 14,
+      "note": "Zile cu toate functiile PRO de la prima pornire a fiecarei instalari (data locala a instalarii + N zile), nu o data fixa de campanie.",
+      "confidence": "product_decision",
+      "sources": []
+    },
+    "monthly_free_uses": {
+      "value": 5,
+      "note": "Utilizari pe luna calendaristica, in versiunea gratuita, pentru fiecare dintre: verificare CUI, cautare CAEN, zile lucratoare.",
+      "confidence": "product_decision",
+      "sources": []
+    },
+    "invoice_monthly_free_uses": {
+      "value": 3,
+      "note": "Facturi create pe luna calendaristica, in versiunea gratuita (sectiunea Facturare) - cota separata de monthly_free_uses, nu aceeasi limita.",
+      "confidence": "product_decision",
+      "sources": []
+    },
+    "history_max_entries": {
+      "value": 10,
+      "note": "Istoric vizibil fara PRO: cel mult atatea intrari (datele nu se sterg).",
+      "confidence": "product_decision",
+      "sources": []
+    },
+    "history_max_days": {
+      "value": 30,
+      "note": "Istoric vizibil fara PRO: nu mai vechi de atatea zile.",
+      "confidence": "product_decision",
+      "sources": []
+    },
+    "saved_scenarios_max": {
+      "value": 2,
+      "note": "Scenarii salvate fara PRO.",
+      "confidence": "product_decision",
+      "sources": []
+    },
+    "profiles_max": {
+      "value": 1,
+      "note": "Profiluri fara PRO (aplicatia are azi un singur profil).",
+      "confidence": "product_decision",
+      "sources": []
+    },
+    "lab_active_scenarios_max": {
+      "value": 1,
+      "note": "Scenarii active simultan in Laborator fara PRO (comparatia A cu B e PRO).",
+      "confidence": "product_decision",
+      "sources": []
+    },
+    "active_income_sources_max": {
+      "value": 1,
+      "note": "Surse de venit active simultan in profil fara PRO (Tax Radar cumulat pe toate sursele e PRO).",
+      "confidence": "product_decision",
+      "sources": []
+    },
+    "price_label": {
+      "value": "",
+      "note": "Neutilizat: preturile vin din Google Play Billing (O4 inchis; nu se scrie niciun pret in cod sau in reguli). Ramane gol.",
+      "confidence": "product_decision",
+      "sources": []
+    },
+    "billing": {
+      "note": "Identificatorii produselor din Google Play Console (NU preturi: preturile si perioadele se citesc din Play Billing la rulare). Abonamentele PRO: anual, trimestrial, lunar, create ca produse de abonament (sau ca planuri de baza ale unui produs; aplicatia le afiseaza pe toate cele gasite). Raportul PFA vs SRL: produs unic (in-app product neconsumabil). Un id schimbat aici cere o actualizare de reguli sau de aplicatie.",
+      "subscription_product_ids": [
+        "ro_tax_pro_annual",
+        "ro_tax_pro_quarterly",
+        "ro_tax_pro_monthly"
+      ],
+      "report_product_id": "ro_tax_report_pfa_vs_srl",
+      "confidence": "product_decision",
+      "sources": []
+    }
+  }
+}
